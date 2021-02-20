@@ -20,7 +20,7 @@ public class TerrainScipt : MonoBehaviour
             {
                 TerrainBlocks[i][j] = Instantiate(Block);
                 TerrainBlocks[i][j].transform.parent = this.transform;
-                TerrainBlocks[i][j].transform.position = new Vector3(((float)i)/10  + transform.position.x, ((float)j) /10 + transform.position.y, 0);
+                TerrainBlocks[i][j].transform.position = new Vector3(((float)i)/10  + transform.position.x + .05f, ((float)j) /10 + transform.position.y + .05f, 0);
                 TerraiBlocksScipt[i][j] = TerrainBlocks[i][j].GetComponent<GroundBlock>();
             }
         }
@@ -29,7 +29,7 @@ public class TerrainScipt : MonoBehaviour
 
     void Update()
     {
-        UpdateAll();
+        //UpdateAll();
     }
 
     void UpdateAll()

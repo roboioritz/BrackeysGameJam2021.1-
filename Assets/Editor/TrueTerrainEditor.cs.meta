@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a0f21f35ed8a5743b50b6bac28fba76
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grid: {fileID: 3470833521245089440, guid: f02d93e12eb4a05448b60cb2145e90d0, type: 3}
+  - prefab: {fileID: 590711005895392328, guid: 652cbc776f3f260438653989aec52770, type: 3}
+  - materialHolder: {fileID: 1194738901807641408, guid: 2291fe0d32994f14b8fe6c5b3e8e0a54,
+      type: 3}
+  - sprite: {fileID: 21300000, guid: ba664b7b8a8fa0946961136c490c3416, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

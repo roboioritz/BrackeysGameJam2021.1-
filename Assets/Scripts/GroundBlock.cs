@@ -8,7 +8,10 @@ public class GroundBlock : MonoBehaviour
     public int durability;
     public SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
+    public Sprite sprite;
     public BoxCollider2D BC2D;
+    public int X;
+    public int Y;
     
     
     void Start()
@@ -18,7 +21,8 @@ public class GroundBlock : MonoBehaviour
     
     void Update()
     {
-        spriteRenderer.sprite = sprites[state];
+        if (state != 0) spriteRenderer.sprite = sprites[state];
+        else spriteRenderer.sprite = sprite;
     }
 
     /*private void OnTriggerEnter2D(Collider2D collision)
